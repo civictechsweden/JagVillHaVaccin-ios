@@ -15,21 +15,21 @@
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>app.vitemadose</string>
+	<string>app.jagvillhavaccin</string>
 	<key>PROJECT_ID</key>
 	<string>vite-ma-dose</string>
 	<key>STORAGE_BUCKET</key>
 	<string>vite-ma-dose.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
-	<false></false>
+	<false/>
 	<key>IS_ANALYTICS_ENABLED</key>
-	<false></false>
+	<false/>
 	<key>IS_APPINVITE_ENABLED</key>
-	<true></true>
+	<true/>
 	<key>IS_GCM_ENABLED</key>
-	<true></true>
+	<true/>
 	<key>IS_SIGNIN_ENABLED</key>
-	<true></true>
+	<true/>
 	<key>GOOGLE_APP_ID</key>
 	<string>1:304644690082:ios:5696ea2b90c567cf25c7fb</string>
 </dict>

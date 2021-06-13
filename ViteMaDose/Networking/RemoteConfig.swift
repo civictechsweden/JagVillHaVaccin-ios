@@ -40,15 +40,15 @@ struct RemoteConfiguration {
 
 extension RemoteConfiguration {
     var baseUrl: String {
-        return configuration.configValue(forKey: "url_base").stringValue!
+        return "https://raw.githubusercontent.com/civictechsweden/JagVillHaVaccin/master"
     }
 
     var statsPath: String {
-        return configuration.configValue(forKey: "path_stats").stringValue!
+        return "/data/output/stats.json"
     }
 
     var departmentsPath: String {
-        return configuration.configValue(forKey: "path_list_departments").stringValue!
+        return "/departements.json"
     }
 
     var maintenanceModeUrl: String? {
@@ -86,7 +86,7 @@ extension RemoteConfiguration {
     }
 
     func departmentPath(withCode code: String) -> String {
-        let path = configuration.configValue(forKey: "path_data_department").stringValue!
+        let path = "/{code}.json"
         return path.replacingOccurrences(of: "{code}", with: code)
     }
 }

@@ -11,13 +11,13 @@
 	<key>ios_maintenance_mode_url</key>
 	<string></string>
 	<key>url_base</key>
-	<string>https://vitemadose.gitlab.io</string>
+	<string>https://raw.githubusercontent.com/civictechsweden/JagVillHaVaccin/master</string>
 	<key>path_stats</key>
-	<string>/vitemadose/stats.json</string>
+	<string>/data/output/stats.json</string>
 	<key>path_list_departments</key>
-	<string>/vitemadose/departements.json</string>
+	<string>/departements.json</string>
 	<key>path_data_department</key>
-	<string>/vitemadose/{code}.json</string>
+	<string>/{code}.json</string>
 	<key>vaccination_centres_list_radius_in_km</key>
 	<string>50</string>
 </dict>
